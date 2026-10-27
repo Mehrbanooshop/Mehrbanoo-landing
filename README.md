@@ -1,25 +1,25 @@
-# Landing page گروه صنعتی مهربانو
+[Uploading README.md…]()
+# وب‌سایت معرفی گروه صنعتی مهربانو
 
-A responsive, Persian (RTL), Bento-grid landing page built with plain HTML, CSS, and JavaScript. It has no build step and can be published directly with GitHub Pages.
+این بسته شامل صفحه معرفی راست‌چین مهربانو برای انتشار رایگان در GitHub Pages است. طراحی بر پایه چیدمان Bento Grid انجام شده و برای موبایل و کامپیوتر واکنش‌گراست.
 
-## Files
+## فایل‌ها
+- `index.html`: محتوای صفحه
+- `styles.css`: استایل و چیدمان
+- `script.js`: منوی موبایل، انیمیشن‌های ورود و کپی راه‌های تماس
+- `assets/`: هشت تصویر ارسالی، همراه با آیکون سایت
 
-- `index.html` — page structure and content
-- `styles.css` — layout, styles, responsive rules, and CSS notebook illustrations
-- `script.js` — mobile navigation, copy-to-clipboard controls, and subtle reveal transitions
-- `assets/` — favicon and all four product photographs (the two original images plus the two newly added PNGs)
+## انتشار یا به‌روزرسانی در GitHub Pages
+1. این فایل ZIP را دانلود و از حالت فشرده خارج کنید.
+2. وارد مخزن موجود `mehrbanoo-landing` در GitHub شوید.
+3. در بخش **Add file → Upload files**، تمام محتویات پوشه `mehrbanoo-landing` را انتخاب و بارگذاری کنید؛ خود پوشه را به‌عنوان یک پوشه تو‌در‌تو بارگذاری نکنید. فایل `index.html` باید مستقیماً در ریشه مخزن باشد و پوشه `assets` نیز حفظ شود.
+4. در پایین صفحه روی **Commit changes** کلیک کنید. اگر GitHub پرسید، ثبت تغییرات روی شاخه `main` را تأیید کنید.
+5. انتشار از طریق **Settings → Pages** و شاخه `main` با پوشه `/(root)` انجام می‌شود. اگر این تنظیم قبلاً فعال شده، معمولاً نیاز به تغییر دوباره ندارد.
 
-## Publish with GitHub Pages
-
-1. Create a GitHub repository (for example, `mehrbanoo-landing`).
-2. Upload **all contents** of this folder to the repository's root, including `index.html`, `styles.css`, `script.js`, and the `assets` folder.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Choose your main branch and the `/ (root)` folder, then save.
-6. Wait for GitHub Pages to publish the site; the published URL will appear in the Pages settings.
-
-## Before publishing
-
-- Confirm that `https://mehrbanooshop.ir`, `Mehrbanoostore@gmail.com`, and `09022838318` are correct and public-facing.
-- The business timeline is presented as: design activities began in 2005, and the business expanded toward product manufacturing and commercialization in 2019. The supplied wording about the pandemic was not included because its timing was ambiguous.
-- The site is a brand-introduction/catalog landing page, not an online store. No cart, checkout, or order backend is included.
+## اطلاعات برند
+- وب‌سایت: https://mehrbanooshop.ir
+- ایمیل: Mehrbanoostore@gmail.com
+- تلفن: 09022838318
+- شعار: هر دفتر، شروع یک رویای تازه
+- شروع فعالیت: ۲۰۰۵ با طراحی دفتر و یادداشت
+- گسترش فعالیت به تولید و عرضه: ۲۰۱۹
